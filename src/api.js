@@ -1,7 +1,6 @@
 import axios from "axios";
 
-// const serverDomain = 'https://order-backend.kz'
-const serverDomain = 'https://orderkz-backend.herokuapp.com'
+const serverDomain = 'https://premium-mebel-back.onrender.com'
 
 class API {
 
