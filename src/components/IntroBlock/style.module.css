@@ -1,0 +1,284 @@
+@font-face {
+    font-family: "Rubik Regular";
+    src: url("../../../public/fonts/Rubik/Rubik-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Rubik Medium";
+    src: url("../../../public/fonts/Rubik/Rubik-Medium.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Rubik Bold";
+    src: url("../../../public/fonts/Rubik/Rubik-Bold.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Incompleet Regular";
+    src: url("../../../public/fonts/Incompleet/IncompleetaRegular.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Heading Pro BookItalic";
+    src: url("../../../public/fonts/Heading/HeadingPro-BookItalic.ttf") format("truetype");
+}
+.logo{
+    font-family: "Incompleet Regular";
+    font-size: 12px;
+}
+.container{
+    width: 100%;
+    padding: 0 5%;
+    padding-top: 5%;
+    box-sizing: border-box;
+    display: flex;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    /*background-image: url("../../../public/main.jpg");*/
+}
+.timesNewRoman{
+    font-family: "Rubik Bold";
+}
+.sofa1{
+    transform: rotate(90deg);
+    font-family: 'Rubik Regular';
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    text-transform: uppercase;
+    color: white;
+}
+.sofa2{
+    font-family: 'Rubik Regular';
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    text-transform: uppercase;
+    color: white;
+}
+.leftSide{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.6s;
+    text-shadow: 1px 1px 5px #000;
+    text-align: center;
+    z-index: 1;
+}
+.rightSide{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.6s;
+}
+.image{
+    width: 100%;
+    -webkit-animation: swing 1s ease;
+    animation: swing 1s ease;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}
+.title{
+    font-family: 'Rubik Regular';
+    text-transform: uppercase;
+
+    font-size: 16px;
+    /*line-height: 18px;*/
+    color: white;
+    transition: 0.3s;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.titleUnder{
+    font-size: 16px;
+    font-family: "Rubik Regular";
+}
+.subtitle{
+    width: 100%;
+    margin-top: 15px;
+    color: white;
+    font-size: 16px;
+    font-family: "Rubik Regular";
+}
+.btnBody{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    margin-top: 10px;
+}
+.snow1{
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    top: -15px;
+    left: 0px;
+}
+.btn{
+    display: block;
+    position: relative;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    margin: 0 10px;
+    background: white;
+    padding: 10px;
+    font-family: "Rubik Regular";
+    border: 1px solid transparent;
+    transition: 0.3s;
+}
+.btn:hover{
+    color: white;
+    border: 1px solid white;
+    background: transparent;
+}
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.show{
+    opacity: 100;
+}
+.hide{
+    opacity: 0;
+}
+.logo{
+    width: 100%;
+}
+.desc{
+    width: 60%;
+    font-size: 28px;
+    font-family: 'Rubik Regular';
+    color: white;
+    text-transform: uppercase;
+}
+.subsub{
+    font-size: 18px;
+    text-decoration: underline;
+}
+@-webkit-keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(10px);
+        transform: translateX(10px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-10px);
+        transform: translateX(-10px);
+    }
+    50%
+    {
+        -webkit-transform: translateX(6px);
+        transform: translateX(6px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-6px);
+        transform: translateX(-6px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(4px);
+        transform: translateX(4px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+@keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(10px);
+        transform: translateX(10px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-10px);
+        transform: translateX(-10px);
+    }
+    50%
+    {
+        -webkit-transform: translateX(6px);
+        transform: translateX(6px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-6px);
+        transform: translateX(-6px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(4px);
+        transform: translateX(4px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+@media screen and (max-width: 761px){
+    .container{
+        background-image: url("../../../public/backgrounds/main_mobile.png");
+        min-height: 75vh;
+        width: auto;
+        flex-direction: column;
+        align-items: center;
+        color: black !important;
+    }
+    .logo{
+     width: 50%;
+    }
+    .leftSide{
+        width: 100%;
+        padding: 20% 0;
+        padding-top: 30%;
+    }
+    .title{
+        font-size: 16px;
+        color: white;
+    }
+    .desc{
+        width: 100%;
+        font-size: 20px;
+        color: white;
+        font-family: "Rubik Medium";
+    }
+    .subsub{
+        font-size: 16px;
+        font-family: "Rubik Regular";
+    }
+    .subtitle{
+        font-size: 14px;
+        color: white;
+    }
+    .btn{
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .sofa1{
+        left: -20%;
+        font-size: 14px;
+    }
+    .sofa2{
+        right: -20%;
+        font-size: 14px;
+    }
+    .btnBody{
+        flex-direction: column;
+        margin-top: 15px;
+    }
+}

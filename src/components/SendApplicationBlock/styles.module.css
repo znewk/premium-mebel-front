@@ -1,0 +1,101 @@
+@font-face {
+    font-family: "Rubik Regular";
+    src: url("../../../public/fonts/Rubik/Rubik-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Rubik Medium";
+    src: url("../../../public/fonts/Rubik/Rubik-Medium.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Rubik Bold";
+    src: url("../../../public/fonts/Rubik/Rubik-Bold.ttf") format("truetype");
+}
+
+.container{
+    width: 100%;
+    margin-top: 30px;
+    background: black;
+    margin-bottom: -50px;
+    display: flex;
+}
+.second{
+    width: 50%;
+    padding: 0 5%;
+    box-sizing: border-box;
+}
+.title{
+    display: block;
+    margin-top: 10px;
+    font-family: "Rubik Regular";
+    color: white;
+    font-size: 18px;
+}
+.select:focus{
+    outline: none;
+}
+.select{
+    margin-top: 5px;
+    border-radius: 5px;
+    font-family: "Rubik Regular";
+    color: white;
+    background: black;
+    border: 1px solid white;
+    padding: 5px 10px;
+    font-size: 18px;
+}
+.input:focus{
+    outline: none;
+}
+.input::placeholder{
+    color: white;
+}
+.input{
+    margin-top: 10px;
+    border-radius: 5px;
+    font-family: "Rubik Regular";
+    padding: 5px 10px;
+    font-size: 18px;
+    color: white;
+    background: black;
+    border: 1px solid white;
+}
+.input::-webkit-outer-spin-button,
+.input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+.btn{
+    color: white;
+    text-decoration: none;
+    background: black;
+    padding: 10px;
+    font-family: "Rubik Medium";
+    border-radius: 3px;
+    border: 1px solid white;
+    transition: 0.3s;
+}
+.btn:hover{
+    color: black;
+    background: white;
+    border: 1px solid black;
+}
+.btnBody{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.logo{
+    font-size: 64px;
+    color: white;
+    font-family: "Rubik Bold";
+    transition: 0.3s;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 0 5px 0 0;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+@media screen and (max-width: 761px) {
+}

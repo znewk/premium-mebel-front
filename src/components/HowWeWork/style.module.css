@@ -1,0 +1,83 @@
+@font-face {
+    font-family: "Rubik Regular";
+    src: url("../../../public/fonts/Rubik/Rubik-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Rubik Medium";
+    src: url("../../../public/fonts/Rubik/Rubik-Medium.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Rubik Bold";
+    src: url("../../../public/fonts/Rubik/Rubik-Bold.ttf") format("truetype");
+}
+
+.container{
+    width: 100%;
+    padding: 50px 5%;
+    box-sizing: border-box;
+    background: black;
+    color: white;
+}
+.title{
+    font-family: "Rubik Bold";
+    font-size: 32px;
+}
+.subtitle{
+    font-family: "Rubik Regular";
+    font-size: 18px;
+}
+.wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+}
+.block{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px 0;
+}
+.blockFooter{
+    text-align: center;
+}
+.blockTitle{
+    font-size: 24px;
+    font-family: "Rubik Bold";
+}
+.blockSubtitle{
+    font-family: "Rubik Regular";
+    font-size: 18px;
+}
+.blockImg{
+    width: 64px;
+    height: 64px;
+    margin-bottom: 5px;
+}
+@media screen and (max-width: 761px){
+    .wrapper{
+        flex-wrap: wrap;
+        margin-top: 30px;
+    }
+    .block{
+        width: 48%;
+        padding: 25px 0;
+    }
+    .blockImg{
+        height: 42px;
+        width: 42px;
+    }
+    .blockTitle{
+        font-size: 18px;
+    }
+    .blockSubtitle{
+        font-size: 14px;
+        margin-top: 5px;
+    }
+    .blockFooter{
+        margin-top: 10px;
+    }
+}

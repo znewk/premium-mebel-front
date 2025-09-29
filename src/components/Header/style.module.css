@@ -1,0 +1,193 @@
+@font-face {
+    font-family: "Rubik Regular";
+    src: url("../../../public/fonts/Rubik/Rubik-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Rubik Medium";
+    src: url("../../../public/fonts/Rubik/Rubik-Medium.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Rubik Bold";
+    src: url("../../../public/fonts/Rubik/Rubik-Bold.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Incompleet Regular";
+    src: url("../../../public/fonts/Incompleet/IncompleetaRegular.ttf") format("truetype");
+}
+.header{
+    width: 100%;
+    padding: 10px 5%;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    background: white;
+    /*background: #1f1f1f;*/
+    z-index: 10;
+    -webkit-box-shadow: 0px 2px 5px 1px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 2px 5px 1px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 3px 5px 1px rgba(34, 60, 80, 0.2);
+}
+.iconLeft{
+    width: 128px;
+    position: absolute;
+    top: 100%;
+    left: 5%;
+}
+.iconRigth{
+    width: 256px;
+    position: absolute;
+    top: 100%;
+    right: 5%;
+}
+.desktopHeader{
+    width: 100% ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logoImg{
+    width: 180px;
+    height: auto;
+}
+.logo{
+    font-family: "Incompleet Regular";
+    color: black;
+    font-size: 24px;
+    transition: 0.3s;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 1s;
+}
+.logo:hover{
+    color: black;
+}
+.logoSub{
+    font-size: 12px;
+    font-family: "Rubik Regular";
+}
+.icon{
+    width: 150px;
+    height: 50px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+.menuItem{
+    text-decoration: none;
+    position: relative;
+    color: black;
+    font-family: "Rubik Regular";
+    transition: 0.3s;
+    cursor: pointer;
+    margin: 0 15px;
+    border: none;
+}
+.isHere{
+    text-decoration: line-through;
+}
+.menuItem:hover{
+    color: black;
+}
+.menuItem:after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    width: 0;
+    height: 1px; /* Высота линии */
+    background-color: black; /* Цвет подчеркивания при исчезании линии*/
+    transition: width 0.5s; /* Время эффекта */
+}
+
+.menuItem:hover:after {
+    content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 1px; /* Высота линии */
+    background-color: black; /* Цвет подчеркивания при появлении линии*/
+    transition: width 0.5s;  /* Время эффекта */
+}
+.picked{
+    color: orangered;
+}
+.menuBtn{
+    display: none;
+}
+.line{
+    height: 4px;
+    width: 32px;
+    background: black;
+    margin-bottom: 3px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.mobileMenu{
+    height: 0;
+    overflow: hidden;
+}
+.hide{
+    height: 0;
+    overflow: hidden;
+}
+.phones{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+.phoneIcon{
+    height: 16px;
+    width: 16px;
+}
+.phoneNumber{
+    font-size: 18px;
+}
+@media screen and (max-width: 761px){
+    .logo{
+        font-size: 16px;
+        margin-top: -5px;
+    }
+    .logoSub{
+        display: none;
+    }
+    .menu{
+        display: none;
+    }
+    .menuBtn{
+        display: block;
+    }
+    .mobileMenu{
+        overflow: hidden;
+        margin-top: 10px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        height: 138px;
+        transition: 0.3s;
+    }
+    .desktopHeader{
+        flex-direction: row;
+    }
+    .menuItem{
+        margin: 0;
+    }
+    .logoImg{
+        width: 100px;
+    }
+    .phones{
+        padding: 10px 0 0 0;
+        justify-content: flex-end;
+    }
+    .phoneIcon{
+        margin-right: 10px;
+    }
+}

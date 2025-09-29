@@ -1,0 +1,37 @@
+@font-face {
+    font-family: "Rubik Regular";
+    src: url("../../../public/fonts/Rubik/Rubik-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Rubik Medium";
+    src: url("../../../public/fonts/Rubik/Rubik-Medium.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Rubik Bold";
+    src: url("../../../public/fonts/Rubik/Rubik-Bold.ttf") format("truetype");
+}
+.container{
+    width: 100%;
+    padding: 50px 5%;
+    background: white;
+}
+.question{
+    width: 100%;
+    padding: 10px 0;
+}
+.wrapper{
+    margin-top: 15px;
+}
+.questionHeader{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.questionAnswer{
+    margin-top: 10px;
+    font-family: "Rubik Medium";
+}
+@media screen and (max-width: 761px) {
+
+}

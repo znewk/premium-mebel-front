@@ -1,0 +1,22 @@
+.container{
+    position: fixed;
+    left: 32px;
+    bottom: 32px;
+    height: 72px;
+    width: 72px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    background-color: black;
+    cursor: pointer;
+    border: 5px solid white;
+}
+
+@media screen and (max-width: 767px){
+    .container{
+        width: 64px;
+        height: 64px;
+    }
+}
