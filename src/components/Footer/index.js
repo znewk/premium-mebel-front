@@ -28,10 +28,10 @@ const Footer = () => {
                     <a href={'tel:+77789416981'} className={styles.value}>+7 (778) 941-69-81</a>
                 </div>
 
-                <div className={styles.list}>
+                {/* <div className={styles.list}>
                     <span className={styles.title}>Почта</span>
                     <a href={'mailto:premiummebel.kz@gmail.com'} className={styles.value}>premiummebel.kz@gmail.com</a>
-                </div>
+                </div> */}
 
                 <div className={styles.list}>
                     <span className={styles.title}>Соц. сети</span>
