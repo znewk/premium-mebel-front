@@ -95,8 +95,8 @@ const CreateNewApplicationToConsultation = ({...props}) => {
                 </span>
                 
                 <div className={styles.footerWrapper}>
-                    <a href="https://api.whatsapp.com/send?phone=77789416981&text=&source=&data=" className={styles.value}>Перейти в WhatsApp</a>
-                    <a href="tel:+77789416981" className={styles.value}>+7 (778) 941-69-81</a>
+                    <a href="https://api.whatsapp.com/send?phone=77007950695&text=&source=&data=" className={styles.value}>Перейти в WhatsApp</a>
+                    <a href="tel:+77007950695" className={styles.value}>+7 (700) 795-06-95</a>
                     <a href={'mailto:premiummebel.kz@gmail.com'} className={styles.value}>premiummebel.kz@gmail.com</a>
                 </div>
             </div>

@@ -77,6 +77,10 @@
     line-height: 1.2;
 }
 
+.menuItem:hover{
+    color: black;
+}
+
 .menuAsButton {
     /* чтобы <button> выглядел как ссылка в меню */
     background: transparent;

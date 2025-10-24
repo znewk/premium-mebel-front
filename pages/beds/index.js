@@ -34,7 +34,7 @@ const Beds = () => {
     return (
         <div>
             <Head>
-                <title>PREMIUM MEBEL - Кровати</title>
+                <title>22:44 Мастерская - Кровати</title>
                 <link rel="icon" href="/icon.png" />
                 <div dangerouslySetInnerHTML={{__html: ymetrica()}}/>
             </Head>

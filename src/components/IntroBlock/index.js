@@ -52,7 +52,7 @@ const IntroBlock = () => {
                     <h3 className={styles.desc}>
                         <h2 className={classnames(styles.title)}>
                             <span className={styles.logo}>
-                            PREMIUM MEBEL</span> <br/>
+                            22:44 Мастерская</span> <br/>
                             Производство полного цикла<br/>
                             <span style={{fontSize: "12px"}}>№1 В КАЗАХСТАНЕ</span> <br/>
                         </h2> <br/>

@@ -32,9 +32,10 @@ const Header = (props) => {
                 />
 
                 <div className={styles.desktopHeader}>
-                    <a href="/" className={styles.logo} aria-label="Premium Mebel — переход на главную">
-                        <span>PREMIUM MEBEL</span>
-                        <span className={styles.logoSub}>МЕБЕЛЬНОЕ ПРОИЗВОДСТВО</span>
+                    <a href="/" className={styles.logo}>
+                        {/* <span>PREMIUM MEBEL</span> */}
+                        <img src="/logo3.png" style={{width: 200}}/>
+                        {/* <span className={styles.logoSub}>МЕБЕЛЬНОЕ ПРОИЗВОДСТВО</span> */}
                     </a>
 
                     {/* центральное меню */}
@@ -63,7 +64,7 @@ const Header = (props) => {
                     <div className={styles.cta}>
                         <div className={styles.phoneHours}>
                             <a
-                                href="tel:+77789416981"
+                                href="tel:+77007950695"
                                 className={styles.link}
                                 aria-label="Позвонить по номеру +7 778 941 69 81"
                             >
@@ -73,7 +74,7 @@ const Header = (props) => {
                                 <div className={styles.ctaPhoneBlock}>
                                     <Image src={'/phone-call-black.png'} className={styles.phoneIcon} alt="" aria-hidden="true" />
                                     <span className={styles.ctaPhoneNumber}>
-                                        +7 (778) 941-69-81
+                                        +7 (700) 795-06-95
                                     </span>
                                 </div>
                             </a>
@@ -110,7 +111,7 @@ const Header = (props) => {
                     <div >
                         <div className={styles.phoneHours}>
                             <a
-                                href="tel:+77789416981"
+                                href="tel:+77007950695"
                                 className={styles.link}
                                 aria-label="Позвонить по номеру +7 778 941 69 81"
                             >
@@ -120,7 +121,7 @@ const Header = (props) => {
                                 <div className={styles.ctaPhoneBlock}>
                                     <Image src={'/phone-call-black.png'} className={styles.phoneIcon} alt="" aria-hidden="true" />
                                     <span className={styles.ctaPhoneNumber}>
-                                        +7 (778) 941-69-81
+                                        +7 (700) 795-06-95
                                     </span>
                                 </div>
                             </a>

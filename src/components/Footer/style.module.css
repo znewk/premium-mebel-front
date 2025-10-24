@@ -2,16 +2,18 @@
     font-family: "Rubik Regular";
     src: url("../../../public/fonts/Rubik/Rubik-Regular.ttf") format("truetype");
 }
+
 @font-face {
     font-family: "Rubik Medium";
     src: url("../../../public/fonts/Rubik/Rubik-Medium.ttf") format("truetype");
 }
+
 @font-face {
     font-family: "Rubik Bold";
     src: url("../../../public/fonts/Rubik/Rubik-Bold.ttf") format("truetype");
 }
 
-.container{
+.container {
     width: 100%;
     padding: 50px 5%;
     box-sizing: border-box;
@@ -20,11 +22,14 @@
     align-items: center;
     background: black;
 }
-.logoPng{
+
+.logoPng {
     width: 250px;
 }
-.logo{
-    font-family: "Incompleet Regular";
+
+.logo {
+    font-family: "Rubik Medium";
+    /* font-family: "Incompleet Regular"; */
     color: white;
     font-size: 24px;
     transition: 0.3s;
@@ -34,21 +39,25 @@
     align-items: center;
     transition: 1s;
 }
-.logoSub{
+
+.logoSub {
     font-size: 12px;
     font-family: "Rubik Medium";
 }
-.list{
+
+.list {
     display: flex;
     flex-direction: column;
 }
-.title{
+
+.title {
     font-family: "Rubik Medium";
     font-size: 18px;
     margin-bottom: 10px;
     color: white;
 }
-.value{
+
+.value {
     font-family: "Rubik Regular";
     text-decoration: none;
     cursor: pointer;
@@ -56,24 +65,28 @@
     margin-bottom: 5px;
     transition: 0.3s;
 }
-.wrapper{
+
+.wrapper {
     width: 80%;
     display: flex;
     justify-content: space-between;
 }
 @media screen and (max-width: 761px) {
-    .container{
+    .container {
         flex-direction: column;
         margin-top: 0;
     }
-    .logo{
+
+    .logo {
         margin-bottom: 20px;
     }
-    .wrapper{
+
+    .wrapper {
         width: 100%;
         flex-wrap: wrap;
     }
-    .list{
+
+    .list {
         width: 50%;
         margin-bottom: 30px;
     }

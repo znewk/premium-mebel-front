@@ -19,13 +19,13 @@ const Footer = () => {
         <div className={styles.container}>
             <ModalWindow show={show} handleClose={handleClose} heading={showConsForm ? 'Получить консультацию' : `Сделать заказ`} body={showConsForm ? <CreateNewApplicationToConsultation/> : <CreateApplicationForm/>}/>
             <a href={'/'} className={styles.logo}>
-                <span>PREMIUM MEBEL</span>
+                <span>22:44 Мастерская</span>
                 <span className={styles.logoSub}>МЕБЕЛЬНОЕ ПРОИЗВОДСТВО</span>
             </a>
             <div className={styles.wrapper}>
                 <div className={styles.list}>
                     <span className={styles.title}>Контанкты</span>
-                    <a href={'tel:+77789416981'} className={styles.value}>+7 (778) 941-69-81</a>
+                    <a href={'tel:+77007950695'} className={styles.value}>+7 (700) 795-06-95</a>
                 </div>
 
                 {/* <div className={styles.list}>

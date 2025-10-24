@@ -19,8 +19,8 @@
     src: url("../../../public/fonts/Heading/HeadingPro-BookItalic.ttf") format("truetype");
 }
 .logo{
-    font-family: "Incompleet Regular";
-    font-size: 12px;
+    /* font-family: "Incompleet Regular"; */
+    font-size: 16px;
 }
 .container{
     width: 100%;

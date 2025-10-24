@@ -58,7 +58,7 @@ const WhyUs = () => {
             {/*    <div className={styles.firstMessage}>*/}
             {/*        <TitleBlock title={'До/После нашей работы'} subtitle={'Зачем покупать новую мебель, если можно её полностью восстановить с экономией от 50 до 80% за очень короткий срок? Дайте своей мебели вторую жизнь.'}/> <br/> <br/>*/}
             {/*        <div className={styles.footer}>*/}
-            {/*            <a href={'tel:+77789416981'} className={styles.leftBtn}>Позвонить</a>*/}
+            {/*            <a href={'tel:+77007950695'} className={styles.leftBtn}>Позвонить</a>*/}
             {/*            <a className={styles.rightBtn} onClick={()=>setShow(!show)}>Получить консультацию</a>*/}
             {/*        </div>*/}
             {/*    </div>*/}
